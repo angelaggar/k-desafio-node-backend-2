@@ -4,5 +4,5 @@
 ## Made by: 
 - [Angie](https://github.com/angelaggar) 🤪
 - [Angel](https://github.com/DEVFBA) 🤓
-- [Sadiel]() 💀
-- [David]() 🐒
+- [Sadiel](https://github.com/curcomil) 💀
+- [David](https://github.com/DavidVazquez001) 🐒
