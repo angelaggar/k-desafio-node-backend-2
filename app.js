@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const port = 3002;
+const port = process.env.PORT;
 const mongoDB = require("./src/db/dbM");
 const user = require("./src/routes/user");
 const post = require("./src/routes/posts");
@@ -22,7 +22,7 @@ mongoDB.connect
   .then((message) => {
     console.log(message);
     app.listen(port, () => {
-      console.log(`Server listening on ${process.env.PORT} port.`);
+      console.log(`Server listening on ${port} port.`);
     });
   })
   .catch((error) => {
